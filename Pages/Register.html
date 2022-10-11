@@ -1,0 +1,148 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="Images/DevTobechukwu Logo.PNG"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/b41a766c11.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>
+      Registration page | Michael Tobechukwu Nwokike for Zuri Cohort 2
+    </title>
+  </head>
+  <body>
+    <header id="register-header">
+      <nav>
+        <a href="#"><img src="Images/DevTobechukwu Logo.PNG" class="logo" /></a>
+        <ul class="home-links">
+          <li><a href="Register.html">Register</a></li>
+          <li><a href="Login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="register-main">
+      <h2 class="register-h2">Sign Up!</h2>
+      <p>Enter your details to register now. It takes only a few minutes!</p>
+      <form action="Success.html" method="post" id="register-form">
+        <table>
+          <tr>
+            <td>
+              <label for="firstname">First name</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                name="firstname"
+                id="firstname"
+                required
+                maxlength="10"
+                minlength="5"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="lastname">Last name</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                name="lastname"
+                id="lastname"
+                required
+                maxlength="12"
+                minlength="7"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="phone">Phone number</label>
+            </td>
+            <td>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                required
+                placeholder="+234-1234-567-890"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="example: yourname@abc.com"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="gender">Gender</label></td>
+            <td>
+              <select name="gender" id="gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="DoB">Date of Birth</label></td>
+            <td>
+              <input
+                type="date"
+                name="DoB"
+                id="DoB"
+                min="1980-01-01"
+                max="2004-12-31"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="FavColor">Favourite Color</label></td>
+            <td>
+              <input type="color" name="FavColor" id="FavColor" />
+            </td>
+          </tr>
+        </table>
+        <button class="register-button">Sign Up</button>
+      </form>
+    </main>
+
+    <div style="text-align: center; margin: 0 auto">
+      <a
+        style="background: #fff; text-decoration: none"
+        href="https://replit.com/@MichaelTobechuk/Pages-by-Michael-Tobechukwu-for-Zuri-Cohort-2#index.html"
+        >Source code</a
+      >
+    </div>
+
+    <footer id="register-footer">
+      &copy Copyright 2022 Michael Tobechukwu Nwokike | Zuri Cohort 2
+    </footer>
+  </body>
+</html>
